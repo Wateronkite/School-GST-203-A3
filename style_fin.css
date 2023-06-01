@@ -1,0 +1,214 @@
+/*for fonts*/
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+  *{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  }
+
+
+.heas{
+  text-align: center;
+  text-decoration: solid;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.heas_table{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-decoration: solid;
+  font-size: 30px;
+  color: black;
+}
+
+.parag{
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.Header{  
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.headerp{
+  font-size: 17px;
+}
+
+.why{
+  margin-top: 100px;
+  padding-top: 100px;
+  line-height: 2.0;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 100px;
+  margin-bottom: 150px;
+}
+
+.why_image_container{
+  width: 100px;
+  height: 100px;
+  background-image: url("img/pokeball_2.png");
+  background-size: cover;
+  padding: 70px;
+  margin-left: 30px;
+}
+
+.why_text{
+  text-align: left;
+  padding-left: 50px;
+}
+.why_bttn{
+  color: #3498DB;
+  padding-top: 50px;
+  margin-top: 30px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.why_heas{
+  color: black;
+}
+.why_heas_team{
+  color: black;
+  margin: 40px;
+
+}
+
+.why_parag{
+  color: black;
+}
+
+.read-bttn{
+  text-align: center
+}
+
+.but-move{
+  text-align: center;
+}
+
+.offices{
+  padding-top: 100px;
+  line-height: 2.0;
+  background-color: grey;
+  background-image: url("img/wrl_map_1.jpg");
+  height: 100vh;
+}
+
+.applybtn{
+  background-color: #3498DB;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 16px;
+
+}
+
+.applybtn:hover{
+  background-color: #2980B9;
+}
+
+.bttn{
+  color: #3498DB;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+
+.bttn:hover{
+  color: #2980B9;
+}
+
+.butt{
+  background-color: #3498DB;
+  color: white;
+  padding: 8px;
+  padding-top: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
+  
+.butt:hover{
+  background-color: #2980B9;
+}
+
+/*employees testimonies container */
+.employees{
+  margin-top: 200px;
+  padding-top: 100px;
+  line-height: 2.0;
+  display: grid;
+  width: 100vw;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 200px;
+  margin-bottom: 50px;
+}
+
+.card {
+  background-color: beige;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+}
+  
+.title {
+  color: grey;
+  font-size: 18px;
+}
+  
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+}
+  
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+  
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.inspire{
+  margin-left: 40px;
+  margin-bottom: 100px;
+}
+
+
+/*OFFICE POSITION TABLE*/
+.office_table{
+  margin-top: 60px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
